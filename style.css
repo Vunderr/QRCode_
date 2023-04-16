@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 320px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 19px;
+    box-shadow: inset;
+
+}
+.box img{
+     max-width: 100%;
+     border-radius: 10px;
+}
+.box h3{
+    margin: 20px 0;
+    text-align: center;
+}
+.box p{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(176,176,176);
+}
